@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(3, 136, 3); /* Set background color to green for headers */
+    color: white; /* Set text color to white for headers */
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) td {
+    background-color: grey; /* Set background color to grey for odd data cells */
+}
+
+tr:hover {
+    background-color: #ddd;
+}
